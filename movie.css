@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    position: relative;
+
+}
+
+/* .ticket-icons{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 10%;
+    
+}
+
+.ticket-icons ul{
+    display: block;
+    position: absolute; 
+     background-color:rgb(6, 6, 61);
+  padding-right: 70px;  To fill the background color to 100%
+  padding-bottom: 25px;
+}
+
+.ticket-icons ul li{
+   
+    padding: 58px;
+    list-style: none;
+    margin-right: 15px;
+    
+}
+ 
+.ticket-icons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.ticket-icons ul li i{
+    
+   position: absolute; 
+    margin-left: 2.2%; 
+    color: white;
+}
+
+
+.ti-ic a{
+   position: absolute;
+    margin-top: 30px;
+   
+}
+
+.ti-i:hover {
+    zoom: 105%;
+}
+
+.ti-an{
+    overflow: hidden;
+    background-color: aqua;
+}
+.ti-an a{
+    float:left;
+    display: block;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+
+.ti-an a:hover{
+    display: block;
+    border-bottom: 3px solid aqua;
+} */
+
+#movie-im{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 100%;
+    height: 1070px;
+    z-index: -1;
+}
+.movie{
+    background-color: rgb(166, 106, 173);
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+    padding: 0 45px 30px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movie:hover {
+    zoom: 102%;
+    margin-top: 13.3%;
+    margin-left: 13%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+
+.movie h3{
+    margin: 30px 0 20px;
+}
+.movie select{
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+.movie select option:nth-child(3){
+    text-align: left;
+}
+.movie ::placeholder{
+    color: black;
+}
+#le{
+    font-size: 0.9rem;
+    margin-left: -5px;
+   
+}
+.mov-b{
+    margin-left: -6px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.mov-b1{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: -10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    
+}
+/* #but-mov{
+    margin-top: 30px;
+    padding: 8px 28px 8px;
+    margin-left: 15%;
+    
+} */
+
+
+#but-mov{
+    margin: 35px 30px 10px;
+    padding: 10px 28px 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+#but-mov:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+
+.ticket-icon{
+    margin-top: 3.9%;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.ticket-icon ul{
+    display: block;
+    margin-top: 10%;
+    background-color: rgb(76, 207, 109);
+    height: 575px;
+    
+}
+.ticket-icon ul li{
+    text-align: left;
+    list-style:none;
+    display:block;
+    padding:30px 40px 50px;
+    margin: 30px 40px 30px ;
+    border-bottom: 1px solid black ;
+
+    
+}
+.ticket-icon ul li:nth-child(1){
+    padding-top: 90px;
+}
+
+
+.ticket-icon ul li a{
+    padding: 6px 12px 6px;
+    text-decoration: none;
+    color: black;
+    
+}
+.ticket-icon ul li a:hover{
+    
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+#mo-t:hover{
+    zoom: 112%;
+}
+
+#mo-ic{
+    position: relative;
+    display: flex;
+}
+#mo-c{
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 18px;
+   margin-left: -45px;
+
+}

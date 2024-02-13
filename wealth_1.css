@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.invs {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.invs-im {
+  position: absolute;
+  top: 0;
+  margin-top: 18%;
+  width: 60%;
+}
+.invs-h {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  margin: 9% 35%;
+  font-size: 2.6rem;
+  color: rgb(27, 170, 14);
+}
+.invs-c {
+  margin-top: 40%;
+  margin-left: 55%;
+}
+.invs-se {
+  height: 35px;
+  width: 70%;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid grey;
+}
+.invs-ic {
+  margin-left: -6%;
+}
+.invs-c h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -35%;
+  margin-left: 17%;
+}
+.invs-c p {
+  margin-top: 3%;
+  margin-left: 12%;
+}
+.invs-se {
+  margin-top: 4%;
+  margin-left: 4%;
+  font-size: 0.9rem;
+  box-shadow: 0px 0px 8px 1px grey;
+}
+.invs-se::placeholder {
+  text-indent: 2%;
+}
+.invs-but {
+  padding: 5px 18px 5px 18px;
+  font-size: 1rem;
+  margin-top: 7%;
+  margin-left: 4%;
+  border-radius: 8px;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
+.invs-but:hover {
+  zoom: 103%;
+  box-shadow: 0px 0px 5px 1px black;
+  transition: 0.3s;
+}
+#invst-sea ::placeholder {
+  text-align: left;
+}
+
+/* /Mutual fund */
+.m-invs-c h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -35%;
+  margin-left: 17%;
+}
+.m-invs-c p {
+  margin-top: 3%;
+  margin-left: 12%;
+}
+
+#w-s-foot {
+  margin-top: 20%;
+}

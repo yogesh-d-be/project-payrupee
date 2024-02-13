@@ -1,0 +1,258 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* /User account logo */
+.user-ac{
+    position: absolute;
+    align-items: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    clip-path: circle(40%);
+    margin-left: 92%;
+    margin-top: -4.5%;
+}
+
+.bill-icons{
+    position: absolute;
+   
+    margin-top: 6%;
+}
+
+.bill-icons ul{
+    display: flex;
+    position: absolute; 
+  
+     background-color:rgb(6, 6, 61);
+  padding-right: 70px;  /*To fill the background color to 100%*/
+  padding-bottom: 25px;
+}
+
+.bill-icons ul li{
+     
+    padding: 58px;
+    list-style: none;
+    margin-right: 15px;
+    
+}
+ 
+.bill-icons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.bill-icons ul li i{
+   position: absolute; 
+    margin-left: 2.2%; 
+    color: white;
+}
+
+
+.bi-ic a{
+   position: absolute;
+    margin-top: 30px;
+   
+}
+
+.bi-i:hover {
+    zoom: 105%;
+}
+
+.bi-an{
+    overflow: hidden;
+    background-color: aqua;
+}
+.bi-an a{
+    float:left;
+    display: block;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+
+.bi-an a:hover{
+    display: block;
+    border-bottom: 3px solid aqua;
+}
+
+
+/* Mobile Recharge */
+
+.mob-re {
+    position: absolute;
+    background-color: rgb(178, 173, 241);
+    margin-top: 17% ;
+    margin-left: 5%;
+    text-align: left;
+    padding: 50px;
+    border-radius: 20px;
+}
+.mob-re:hover {
+    zoom: 102%;
+    margin-top: 15.3%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+.paid{
+    margin-right: 15px;
+}
+.mob-re h3{
+    padding-bottom: 30px;
+}
+.mob-re select {
+    margin-top: 25px;
+    height: 29px;
+    width: 200px;
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.mob-re ::placeholder{
+    color: black;
+}
+
+.mo-n{
+    margin-top: 25px;
+     height: 29px;
+    width: 200px;
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+#operator option:nth-child(3){
+   
+   text-align: left;
+} 
+
+#state option:nth-child(3){
+   
+   text-align: left;
+}
+
+#but-recha{
+    margin: 35px 30px 10px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+#but-recha:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+.oper{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 3%;
+    width: 90%;
+    height: 35%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.oper h2{
+    padding: 25px;
+}
+.oper-logo{
+    height: 100px;
+    padding-left: 70px;
+}
+
+
+
+/* /footer */
+#b-foot{
+    position: absolute;
+    margin-top: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#down{
+    display: inline-flex;
+   font-size: 1.2rem;
+   
+}
+
+#downl{
+    display: inline-flex;
+    padding-bottom: 7%;
+}
+
+.down{
+    width: 33%;
+    font-size: 1.1rem;
+    padding: 10px 16px 10px;  
+    font-weight: 700;
+    margin-left: 3%;
+    border-radius: 9px;
+    background-color: rgba(20, 20, 20, 0.986);
+    color: white ;
+    padding-top: -20px;
+    margin-bottom: 40px;
+    
+}
+
+.down:hover{
+    zoom: 101.5%;
+    background-color: green;
+    box-shadow: 0px 0px 5px 3px black;
+}
+
+#do-b{
+    margin-left: 4%;
+    
+    
+}
+
+#do-tex{
+    
+    text-align: center;
+    margin-left: 8%;
+}
+
+.do-lin{
+    text-decoration: none;
+    color: white;
+}
+#do-p{
+    margin-top: 100px;
+    
+}
+.h-l{
+    width: 190%;
+    
+}
+#fo-l{
+    width: 172%;
+    margin-top: 4%;
+    margin-right: -3%;
+    margin-left: -3%;
+    height: 2%;
+    display:block;
+    background-color: rgb(255, 123, 0);
+}
+#fo-l1{
+    width: 172%;
+    height: 2%;
+    display:block;
+    margin-right: -3%;
+    margin-left: -3%;
+    margin-top: 1.5%;
+    background-color: rgb(2, 109, 2);
+}
+
+

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.gas-bill{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 5%;
+    background-color: rgb(178, 173, 241);
+    border-radius: 20px;
+    padding: 0% 4% 0%;
+}
+.gas-bill:hover{
+    zoom: 103%;
+    margin-top: 16%;
+    box-shadow: 0px 0px 5px 2px black;
+    transition:0.5s;
+}
+.gas-bill h3{
+    margin: 30px 0px 25px;
+}
+#ga2{
+    margin-left: 3px;
+}
+#ga1,#ga2{
+    margin-bottom: 23px;
+}
+#g-com,#g-state,.g-am{
+    margin-top: 15px;
+    height: 25px;
+    width: 210px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+.g-am::placeholder{
+    color: black;
+}
+#but-ga-pay{
+    text-align: center;
+    margin: 30px 0px 30px;
+    padding: 8px;
+    width:58%;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+#but-ga-pay:hover{
+    box-shadow: 2px 2px 5px 2px black;
+}
+#g-com option:nth-child(3),#g-state option:nth-child(3){
+    text-align: left;
+}
+
+.gas-com{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 3%;
+    width: 90%;
+    height: 35%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.gas-com h2{
+    padding: 25px;
+}
+.gas-logo{
+    height: 100px;
+    padding-left: 70px;
+}
+
+
+/* /footer */
+#b-foot{
+    position: absolute;
+    margin-top: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#down{
+    display: inline-flex;
+   font-size: 1.2rem;
+   
+}
+
+#downl{
+    display: inline-flex;
+    padding-bottom: 7%;
+}
+
+.down{
+    width: 33%;
+    font-size: 1.1rem;
+    padding: 10px 16px 10px;  
+    font-weight: 700;
+    margin-left: 3%;
+    border-radius: 9px;
+    background-color: rgba(20, 20, 20, 0.986);
+    color: white ;
+    padding-top: -20px;
+    margin-bottom: 40px;
+    
+}
+
+.down:hover{
+    zoom: 101.5%;
+    background-color: green;
+    box-shadow: 0px 0px 5px 3px black;
+}
+
+#do-b{
+    margin-left: 4%;
+    
+    
+}
+
+#do-tex{
+    
+    text-align: center;
+    margin-left: 8%;
+}
+
+.do-lin{
+    text-decoration: none;
+    color: white;
+}
+#do-p{
+    margin-top: 100px;
+    
+}
+.h-l{
+    width: 190%;
+    
+}
+#fo-l{
+    width: 172%;
+    margin-top: 4%;
+    margin-right: -3%;
+    margin-left: -3%;
+    height: 2%;
+    display:block;
+    background-color: rgb(255, 123, 0);
+}
+#fo-l1{
+    width: 172%;
+    height: 2%;
+    display:block;
+    margin-right: -3%;
+    margin-left: -3%;
+    margin-top: 1.5%;
+    background-color: rgb(2, 109, 2);
+}
+
+
+
+
+

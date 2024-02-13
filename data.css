@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.data-icons{
+    position: absolute;
+   
+    margin-top: 6%;
+}
+
+.data-icons ul{
+    display: flex;
+    position: absolute; 
+    
+     background-color:rgb(6, 6, 61);
+  padding-right: 70px;  /*To fill the background color to 100%*/
+  padding-bottom: 25px;
+}
+
+.data-icons ul li{
+     
+    padding: 58px;
+    list-style: none;
+    margin-right: 15px;
+    
+}
+ 
+.data-icons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.data-icons ul li i{
+   position: absolute; 
+    margin-left: 2.2%; 
+    color: white;
+}
+
+
+.da-ic a{
+   position: absolute;
+    margin-top: 30px;
+   
+}
+
+.da-i:hover {
+    zoom: 105%;
+}
+
+.da-an{
+    overflow: hidden;
+    background-color: aqua;
+}
+.da-an a{
+    float:left;
+    display: block;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+
+.da-an a:hover{
+    display: block;
+    border-bottom: 3px solid aqua;
+}
+
+
+
+
+
+.data-re {
+    position: absolute;
+    background-color: rgb(178, 173, 241);
+    margin-top: 17% ;
+    margin-left: 5%;
+    text-align: left;
+    padding: 50px;
+    border-radius: 20px;
+}
+.data-re:hover {
+    zoom: 102%;
+    margin-top: 15.3%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+.da-paid{
+    margin-right: 15px;
+}
+.data-re h3{
+    padding-bottom: 30px;
+}
+.data-re select {
+    margin-top: 25px;
+    height: 29px;
+    width: 200px;
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.data-re ::placeholder{
+    color: black;
+}
+
+.da-n{
+    margin-top: 25px;
+     height: 29px;
+    width: 200px;
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+#da-operator option:nth-child(3){
+   
+   text-align: left;
+} 
+
+#da-operator option:nth-child(3){
+   
+   text-align: left;
+}
+
+#but-data{
+    margin: 35px 30px 10px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#but-data:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+.data-oper{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 3%;
+    width: 90%;
+    height: 35%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.data-oper h2{
+    padding: 25px;
+}
+.da-oper-logo{
+    height: 100px;
+    padding-left: 70px;
+}

@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.bus{
+    background-color: rgb(166, 106, 173);
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 16%;
+    text-align: left;
+    padding: 0px 45px 0;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bus:hover {
+    zoom: 102%;
+    margin-top: 7%;
+    margin-left: 13%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+.bus h3{
+    padding: 30px 0 30px;
+}
+
+
+.bus ::placeholder{
+    color: black;
+}
+.bus select option:nth-child(3){
+    text-align: left;
+}
+
+.b-fr-to,#bu-tr,#bu-se{
+    margin-top: 30px;
+
+}
+.b-fr-to,.bu-b,#bu-se{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+#bu-lt{
+    margin-left:5px;
+}
+.b-fr-to{
+    margin-bottom: 30px;
+    height: 25px;
+    width: 100px;
+}
+#bu-tr{
+    font-size: 0.8rem;
+    
+}
+.bu-b1{
+    margin-top: 15px;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+}
+
+#b-adu,#b-adf,#b-chi{
+    margin-left: 40px;
+   
+}
+#b-adu{
+    margin-right: 39px;
+}
+#b-adf{
+    margin-right: 10px;
+}
+#b-chi{
+    margin-right: 46px;
+   
+}
+
+#bu-se{
+    height:25px;
+    width: 220px;
+}
+#but-bu{
+    margin:35px 0 30px;
+    margin-left: 22%;
+    padding:7px 20px 7px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+#but-bu:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+#bu-be{
+    margin-top: 55%;
+    position: absolute; 
+    margin-left: 5%;
+    background: rgba(245, 245, 245, 0.562);
+    padding: 2% 25% 2% 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#bu-be h2{
+    padding: 10% 0 0;
+}
+#bu-be ul li{
+    margin-top: 10%;
+    list-style-type:square;
+    font-weight: 500px;
+
+}
+#bu-be ul li:nth-child(3){
+    text-align: left;
+    margin-left: 0px;
+}

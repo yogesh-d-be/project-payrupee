@@ -1,0 +1,643 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /logo image */
+
+#log-pag {
+  overflow-x: hidden;
+}
+#nav-logo {
+  height: 40px;
+  margin-left: -45%;
+
+  margin-top: 20px;
+  position: absolute;
+}
+
+/* /logo name */
+#logo-name {
+  position: absolute;
+  margin-left: -41.5%;
+  margin-top: 2%;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(45deg, rgb(255, 94, 0), white, rgb(3, 87, 3));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.5px navy; /*To get color outline for brand name(payrupee)*/
+}
+
+/* /navigation bar */
+.nav-bar {
+  background-color: rgb(55, 171, 248);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 2; /*To prevent the overlapping of clip path images while scrolling of position fixed Navbar */
+}
+
+.nav-bar ul {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 20%;
+}
+
+.nav-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.nav-bar ul li:hover {
+  background-color: rgb(89, 89, 224);
+  border-radius: 25px;
+}
+
+.nav-bar ul li a:hover {
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  zoom: 102%;
+}
+
+/* /login button*/
+#log li {
+  list-style: none;
+}
+
+#log-button {
+  /* padding: 5px  ;
+     padding-left: 25px;
+     margin-right: 8%;
+     margin-top: -15%; */
+  /*related to navigation bar*/
+
+  margin-left: 40%;
+  margin-top: -60px;
+  position: absolute;
+  width: 6.5%;
+  font-size: 0.9rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 12%;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 7px;
+  font-weight: 500;
+}
+
+/* /login button anchor tag */
+#log-link {
+  text-decoration: none;
+}
+
+/* button:hover{
+    animation-name: log-ani;
+    background-color: green;
+    animation-duration: 2s;
+    position: absolute;
+}
+
+@keyframes log-ani{
+    
+    from{left: 0%;}
+    to{left: 95%}
+} */
+
+/* /login page body intro */
+
+#intr-im {
+  float: left;
+  width: 58%;
+  margin-top: 9.5%;
+  height: max-content;
+}
+#intr-lo {
+  height: 2.2%;
+  width: 3.2%;
+  vertical-align: -20px;
+  margin-top: 12%;
+}
+
+#intr-lo-n {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgb(255, 94, 0), white, rgb(3, 87, 3));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.5px navy;
+}
+
+#intr-h {
+  margin-top: 4%;
+  font-size: 25px;
+  text-wrap: wrap;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fa-heart {
+  color: red;
+}
+
+#intr-co {
+  margin-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+
+#dow {
+  padding: 12px;
+  width: 225px;
+  border-radius: 7px;
+  font-weight: 800;
+  font-size: 17px;
+  background-color: rgb(20, 19, 19);
+  color: white;
+  margin-left: 13%;
+  margin-top: 2%;
+}
+
+#dow-ap {
+  text-decoration: none;
+  color: white;
+}
+
+.dow-a {
+  color: white;
+  text-decoration: none;
+}
+
+#dow:hover {
+  zoom: 108%;
+  box-shadow: 0px 0px 5px 2px black;
+  transition: 0.4s;
+  background-color: rgb(6, 60, 114);
+}
+
+/* Service of Payrupee */
+
+#recharge {
+  background-color: rgb(255, 116, 3);
+  margin-top: 10%;
+  padding-top: 2.5%;
+  margin-right: -3%;
+  margin-left: -3%;
+  box-sizing: border-box;
+}
+
+#rech-fo {
+  padding: 25px;
+  margin-left: 5%;
+  color: white;
+}
+
+#rec-li {
+  list-style: none;
+  display: inline-flex;
+}
+
+.rech-l {
+  display: block;
+  text-align: center;
+  margin-left: 2%;
+  padding: 20px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.rech-l a,
+.bo-l a {
+  text-decoration: none;
+  color: white;
+}
+
+#book {
+  background-color: green;
+  margin-top: 10%;
+  padding-top: 55px;
+  margin-right: -3%;
+  margin-left: -3%;
+  box-sizing: border-box;
+  padding-bottom: 3%;
+}
+
+#bo-fo {
+  padding: 20px;
+  margin-left: 5%;
+  color: white;
+}
+
+#bo-li {
+  margin-left: 30px;
+  list-style: none;
+  display: inline-flex;
+}
+
+.bo-l {
+  margin-top: 10px;
+  margin-left: 3%;
+  display: block;
+  text-align: center;
+  padding: 18px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* /wallet */
+
+#wallet {
+  background-color: rgba(232, 252, 153, 0.692);
+  display: inline-flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin-top: 9%;
+  width: 80%;
+  margin-left: 10%;
+  height: 550px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#wa-im {
+  width: 500px;
+  height: 450px;
+  margin-top: 12%;
+  margin-left: 12%;
+  border-radius: 18%;
+  box-shadow: 0px 0px 8px 2px rgb(77, 76, 76);
+}
+
+.wa-c {
+  text-align: justify;
+  text-wrap: wrap;
+  margin-top: 20%;
+  font-size: 1.3rem;
+  margin-left: 5 0.5%;
+  margin-right: 7%;
+}
+#wa-c1 {
+  margin-top: 10%;
+}
+
+.fa-wallet {
+  padding-top: 70%;
+  margin-left: 305%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+}
+
+/* /payanyone */
+
+#pay {
+  background-color: rgba(232, 252, 153, 0.692);
+  height: 450px;
+  width: 80%;
+  margin-top: 9%;
+  display: inline-flex;
+  margin-left: 10%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#pay-im {
+  height: 370px;
+  width: 500px;
+  margin-top: -4%;
+  margin-left: 9%;
+  clip-path: circle(65%);
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+#pay-im1 {
+  height: 120px;
+  width: 200px;
+  margin-left: -60px;
+  margin-top: -50px;
+  clip-path: circle(60%);
+  box-shadow: 0px 0px 5px 2px black;
+}
+.pay-c {
+  text-align: justify;
+  margin-left: -6%;
+  margin-right: 6%;
+  margin-top: 6%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pay-c1 {
+  margin-top: 10%;
+}
+.fa-indian-rupee-sign {
+  padding-top: 8%;
+  margin-left: 200%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+  font-weight: bolder;
+}
+
+/* /shopping */
+
+#shop {
+  background-color: rgba(232, 252, 153, 0.692);
+  height: 500px;
+  width: 80%;
+  margin-top: 9%;
+  display: inline-flex;
+  margin-left: 10%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#shop-im {
+  height: 420px;
+  width: 330px;
+  margin-top: -4%;
+  margin-left: 9%;
+  clip-path: circle(60%);
+  position: relative;
+}
+#shop-im1 {
+  clip-path: circle(47%);
+  box-shadow: 0px opx 4px 0px black;
+  zoom: 105%;
+  width: 160%;
+}
+
+.shop-c {
+  text-align: justify;
+  margin-left: -30%;
+  margin-right: 6%;
+  margin-top: 14%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.shop-c1 {
+  margin-top: 10%;
+}
+#sh-ic {
+  margin-top: 1%;
+  margin-left: 30%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+/* /investment */
+
+#invest {
+  background-color: rgba(232, 252, 153, 0.692);
+  height: 450px;
+  width: 80%;
+  margin-top: 9%;
+  display: inline-flex;
+  margin-left: 10%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#invest-im {
+  height: 300px;
+  width: 500px;
+  margin-top: 4%;
+  margin-left: 9%;
+  clip-path: circle(62%);
+  box-shadow: 0px 0px 16px 2px grey;
+}
+#invest-im1 {
+  height: 70%;
+  clip-path: circle(31%);
+  margin-left: -20%;
+  margin-top: -7%;
+}
+#invest-im2 {
+  height: 70%;
+  clip-path: circle(40%);
+  margin-left: -70%;
+  margin-top: 20%;
+}
+#invest-c {
+  text-align: justify;
+  margin-left: -40%;
+  margin-right: 5%;
+  margin-top: 13%;
+}
+.invest-c1 {
+  margin-top: 10%;
+}
+.fa-coins {
+  padding-top: 9%;
+  margin-left: -100%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+  font-weight: bolder;
+}
+
+/* /insurance */
+
+#insur {
+  background-color: rgba(232, 252, 153, 0.692);
+  height: 450px;
+  width: 80%;
+  margin-top: 9%;
+  display: inline-flex;
+  margin-left: 10%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#insur-im {
+  height: 370px;
+
+  margin-top: -4%;
+  margin-left: 9%;
+  border-radius: 70px;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+#insur-im1 {
+  height: 130px;
+  margin-left: 40px;
+  margin-top: -50px;
+  clip-path: circle(55%);
+}
+#insur-im2 {
+  height: 130px;
+  margin-left: -205px;
+  margin-top: 100px;
+  clip-path: circle(35%);
+}
+#insur-im3 {
+  height: 130px;
+  margin-left: -210px;
+  margin-top: 250px;
+  clip-path: circle(40%);
+}
+
+.insur-c {
+  text-align: justify;
+  margin-left: -10%;
+  margin-right: 10%;
+  margin-top: 11%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.insur-c1 {
+  margin-top: 10%;
+}
+.fa-umbrella {
+  margin-top: 3%;
+  margin-left: 155%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+  font-weight: bolder;
+}
+
+/* /loan */
+
+#loan {
+  background-color: rgba(232, 252, 153, 0.692);
+  height: 450px;
+  width: 80%;
+  margin-top: 9%;
+  display: inline-flex;
+  margin-left: 10%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+#lo-im {
+  height: 430px;
+  margin-top: -16%;
+  margin-left: -3%;
+}
+#lo-im1 {
+  height: 160px;
+  margin-left: -90px;
+  margin-top: 80px;
+  clip-path: circle(55%);
+}
+
+.lo-c {
+  text-align: justify;
+  margin-left: -4%;
+  margin-right: 6%;
+  margin-top: 12%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.lo-c1 {
+  margin-top: 10%;
+}
+.fa-building-columns {
+  margin-top: 1%;
+  margin-left: 340%;
+  font-size: 1.4rem;
+  color: rgb(7, 7, 121);
+  font-weight: bolder;
+}
+
+/* /Footer */
+
+#foot {
+  margin-top: 15%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+#down {
+  display: inline-flex;
+  font-size: 1.2rem;
+}
+
+#downl {
+  display: inline-flex;
+  padding-bottom: 7%;
+}
+
+.down {
+  width: 33%;
+  font-size: 1.1rem;
+  padding: 10px 16px 10px;
+  font-weight: 700;
+  margin-left: 2%;
+  border-radius: 9px;
+  background-color: rgba(20, 20, 20, 0.986);
+  color: white;
+}
+
+.down:hover {
+  zoom: 101.5%;
+  background-color: green;
+  box-shadow: 0px 0px 5px 3px black;
+}
+
+#do-b {
+  margin-left: 4%;
+}
+
+#do-tex {
+  text-align: center;
+  margin-left: 8%;
+}
+
+.do-lin {
+  text-decoration: none;
+  color: white;
+}
+#do-p {
+  margin-top: 100px;
+}
+.h-l {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+#fo-l {
+  margin-top: 4%;
+  margin-right: -3%;
+  margin-left: -3%;
+  height: 2%;
+  display: block;
+  background-color: rgb(255, 123, 0);
+}
+#fo-l1 {
+  height: 2%;
+  display: block;
+  margin-right: -3%;
+  margin-left: -3%;
+  margin-top: 1.5%;
+  background-color: rgb(2, 109, 2);
+}

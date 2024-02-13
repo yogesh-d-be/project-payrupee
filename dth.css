@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-bill-icons {
+  position: absolute;
+
+  margin-top: 6%;
+}
+
+.d-bill-icons ul {
+  display: flex;
+  position: absolute;
+
+  background-color: rgb(6, 6, 61);
+  padding-right: 70px; /*To fill the background color to 100%*/
+  padding-bottom: 25px;
+}
+
+.d-bill-icons ul li {
+  padding: 58px;
+  list-style: none;
+  margin-right: 15px;
+}
+
+.d-bill-icons ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.d-bill-icons ul li i {
+  position: absolute;
+  margin-left: 2.2%;
+  color: white;
+}
+
+.bi-ic a {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.bi-i:hover {
+  zoom: 105%;
+}
+
+.bi-an {
+  overflow: hidden;
+  background-color: aqua;
+}
+.bi-an a {
+  float: left;
+  display: block;
+  color: black;
+  border-bottom: 3px solid transparent;
+}
+
+.bi-an a:hover {
+  display: block;
+  border-bottom: 3px solid aqua;
+}
+
+/* Recharge dth */
+
+.dth-re {
+  position: absolute;
+  background-color: rgb(178, 173, 241);
+  margin-top: 17%;
+  margin-left: 5%;
+  text-align: left;
+  padding: 50px;
+  border-radius: 20px;
+}
+.dth-re:hover {
+  zoom: 102%;
+  margin-top: 15.3%;
+  box-shadow: 0px 0px 7px 3px black;
+  transition: 0.5s;
+}
+
+.dth-re h3 {
+  padding-bottom: 30px;
+}
+.dth-re select {
+  margin-top: 25px;
+  height: 29px;
+  width: 210px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.dth-re ::placeholder {
+  color: black;
+}
+
+.d-mo-n {
+  margin-top: 25px;
+  height: 29px;
+  width: 210px;
+  border: none;
+  margin-left: 4px;
+
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+#dth-operator option:nth-child(3) {
+  text-align: left;
+}
+
+#d-but-recha {
+  margin: 35px 30px 10px;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+#d-but-recha:hover {
+  box-shadow: 0px 0px 5px 2px black;
+  zoom: 102%;
+  transition: 0.3s;
+}
+
+.dth-oper {
+  position: absolute;
+  margin-top: 55%;
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 3%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px 2px black;
+}
+.dth-oper h2 {
+  padding: 25px;
+}
+.dth-oper-logo {
+  height: 100px;
+  padding-left: 70px;
+}

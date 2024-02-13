@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayRupee: Online Flight Ticket Booking</title>
+    <link rel="icon" href="./images Pro1/Rupee.jpg" type="icon/x-icon">
+     <link rel="stylesheet" href="./login.css"> <!--Link Css to html file -->
+    <link rel="stylesheet" href="./loginpa.css"> <!--Link loginpa css file-->
+    <link rel="stylesheet" href="./consumer.css"><!--Link consumer css file-->
+    <link rel="stylesheet" href="./bill.css"><!--Link bill css file-->
+    <link rel="stylesheet" href="./movie.css"><!--Link movie css file-->
+    <link rel="stylesheet" href="./flight.css">
+
+    <script src="https://kit.fontawesome.com/667222a737.js" crossorigin="anonymous"></script>
+
+</head>
+<body id="l-log-pag">
+    <div class="l-nav-bar">
+      <div>
+        <img src="./images Pro1/Rupee.jpg" alt="logo" id="l-nav-logo" />
+        <span id="l-logo-name">PayRupee</span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Consumer</a>
+          <div class="menu">
+            <ul>
+              <li class="hover">
+                <a href="#">Payments</a>
+                <div class="menu1">
+                  <ul>
+                    <li>
+                      <a href="./consumer.html">
+                        Recharges &amp; Bill Payments</a
+                      >
+                    </li>
+                    <li><a href="./send.html">Send Money To Anyone </a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover">
+                <a href="#">Ticket Booking</a>
+                <div class="menu1">
+                  <ul>
+                    <li><a href="./movie.html"> Movie Tickets</a></li>
+                    <li><a href="./flight.html">Flight Tickets </a></li>
+                    <li><a href="./bus.html">Bus Tickets </a></li>
+                    <li><a href="./train.html">Train Tickets </a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover">
+                <a href="#">Financial Services</a>
+                <div class="menu1">
+                  <ul>
+                    <li><a href="./insurance.html">Insurance</a></li>
+                    <li>
+                      <a
+                        href="./loan.html
+                      "
+                        >Personal Loan</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">Business</a>
+          <div class="menu">
+            <ul>
+              <li><a href="./consumer_pay.html">Consumer Payments</a></li>
+              <li class="hover">
+                <a href="#">Financial Services</a>
+                <div class="menu1">
+                  <ul>
+                    <li><a href="./b_loan.html">Business Loan</a></li>
+                    <li><a href="./insurance.html">Insurance</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="hover">
+          <a href="#">Investment</a>
+          <div class="menu">
+            <ul>
+              <li><a href="./wealth.html">Wealth</a></li>
+              <li><a href="./b_loan.html">Loans</a></li>
+              <li><a href="./insurance.html">Insurance</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./company.html">Company</a></li>
+        <li><a href="#dwnl">Download</a></li>
+      </ul>
+
+      <div class="user-ac">
+        <i class="fa-solid fa-user-check" title="Your Account"></i>
+      </div>
+    </div>
+       
+        <div class="ticket-icon">
+            <ul>
+                <li><div id="mo-t"><i class="fa-solid fa-film fa-xl" id="mo-ic"></i><span><a href="./movie.html" id="mo-c">Movie Tickets</a></span></div></li>
+                <li><div id="mo-t"><i class="fa-solid fa-jet-fighter fa-xl" id="mo-ic"></i><span><a href="./flight.html" id="mo-c">Flight Tickets</a></span></div></li>
+                <li><div id="mo-t"><i class="fa-solid fa-bus-simple fa-xl" id="mo-ic"></i><span><a href="./bus.html" id="mo-c">Bus Tickets</a></span></div></li>
+                <li><div id="mo-t"><i class="fa-solid fa-train fa-xl" id="mo-ic"></i><span><a href="./train.html" id="mo-c">Train Tickets</a></span></div></li>
+                
+            </ul>
+        </div>
+
+        
+             <!-- Movie Ticket Page -->
+             <img src="./images Pro1/pre-book-flights.png" alt="" id="movie-im"> 
+        
+        <div class="flight">
+            <h3>Flight Ticket Booking </h3>
+            <form action="">
+               
+                <input type="text" placeholder="From" class="fr-to">&nbsp;<i class="fa-solid fa-right-left"></i>
+                &nbsp;&nbsp;&nbsp;<input type="text" placeholder="To" class="fr-to"><br>
+                <label for="" id="leg" >Departure date</label><br>
+                <input type="date" placeholder="Show Date" class="fl-b">
+                <br>
+                <fieldset id="fl-tr">
+                    <legend id="fl-lt">Travellers</legend>
+                    
+                <label for="" id="adu">Adult (+12 Years)</label>
+                <input type="number"  class="fl-b1" value="0"><br>
+                <label for="" id="chi">Children (2-12 Years)</label>
+                <input type="number"  class="fl-b1" value="0"><br>
+                <label for="" id="inf">Infant (0-2 Years)</label>
+                <input type="number"  class="fl-b1" value="0">
+            
+                </fieldset><br>
+
+
+                <select name="flight class" id="fl-se">
+                    <option value="select">Select class</option>
+                    <option value="economy">Economy</option>
+                    <option value="premium economy">Premium Economy</option>
+                    <option value="business">Business</option>
+                </select><br>
+                <input type="button" value="Search Flights" id="but-fl" ><br>
+            </form>
+
+
+        </div>
+
+
+        <div id="fl-be">
+            <h2>Benefits</h2>
+            <ul>
+                <li>Easy &amp; Quick ticket booking</li>
+                <li>Win cashback offers</li>
+                <li>Travel insurance</li>
+                <li>Free cancellation &amp; Instant refund</li>
+                <li>Lowest fare</li>
+                <li>24/7 customer support</li>
+            </ul>
+        </div>
+       
+
+        <footer id="b-foot">
+        <hr class="h-l">
+        <div id="down">
+        <p id="do-p">Download from anywhere</p>
+        </div>
+        <div id="downl">
+        <button class="down" id="dwnl"><a href="https://apps.apple.com/in/app/paytm-secure-upi-payments/id473941634" class="do-lin">Download on the <span class="do-tex"><i class="fa-brands fa-apple fa-beat"></i>&nbsp;&nbsp;App Store</span></a></button>
+        <button class="down" id="do-b"><a href="https://play.google.com/store/apps/details?id=net.one97.paytm" class="do-lin">Get it on the&nbsp;&nbsp; <span ><i id="do-tex" class="fa-brands fa-google-play fa-beat"></i>&nbsp;&nbsp;Playstore</span></a></button>
+        </div><hr class="h-l">
+        <div id="fo-l">.
+        </div>
+        <div id="fo-l1">.</div> 
+    </footer>
+
+
+
+    
+</body>
+</html>
+    </body>
+</html>

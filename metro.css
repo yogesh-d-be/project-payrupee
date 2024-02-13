@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body img{
+    position: absolute;
+    z-index: -1;
+    
+   height: 141%;
+   margin-top: 16%;
+   margin-left: -50%;
+} 
+
+/* body{
+    background-image: url('./images Pro1/india-metro.jpg');
+    background-repeat: no-repeat;
+    background-size: 152% ;
+       
+
+} */
+
+
+.metro-re{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+     background-color: rgb(178, 173, 241);
+    border-radius: 20px;
+    padding: 0 4% 0;
+}
+.metro-re:hover {
+    zoom: 102%;
+    margin-top: 15.3%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+
+.metro-re h3{
+    padding: 35px 0px 35px;
+}
+
+#metro,#ticket,.ca-n{
+    margin: 20px 0;
+    height: 25px;
+    width: 180px;
+    text-align: left;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+.ca-n::placeholder{
+    color: black;
+}
+#but-metro{
+    padding: 7px 25px 7px;
+    border-radius: 20px;
+    margin: 20px 0 35px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    
+}
+#but-metro:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.traffic-c{
+    position: absolute;
+    margin-top: 20%;
+    background: rgb(178,173,241);
+    margin-left: 5%;
+    padding: 0% 4% 0%;
+    border-radius: 20px;
+    
+}
+.traffic-c:hover {
+    zoom: 102%;
+    margin-top: 15.3%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+    
+}
+.traffic-c h3{
+    margin: 30px 0px 20px;
+
+}
+#c-num,#ve-num{
+    margin-top: 25px;
+    text-align: left;
+    height: 25px;
+    outline: none;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+#ve-num{
+    margin-left: 1%;
+}
+#c-num::placeholder,#ve-num::placeholder{
+    color:black;
+}
+#t-but{
+    margin: 40px 0px 40px;
+    padding: 6px 25px 6px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+#t-but:hover {
+    box-shadow: 0px 0px 5px 1px black ;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+.tr-im{
+    margin-left: 35%;
+    margin-top: 12%;
+    
+}
+.t-rule{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 6px 2px black;
+    padding: 1% 5% 3%;
+    border-radius: 20px;
+    
+}
+.t-rule h2{
+    margin: 30px 0px 30px;
+}
+.t-rule li{
+    margin-top: 3%;
+}
+.t-rule li:nth-child(3){
+    margin-left: 0px;
+    text-align: left;
+    
+}

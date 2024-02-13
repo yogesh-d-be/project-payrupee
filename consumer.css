@@ -1,0 +1,278 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /bill */
+
+
+.bill-im{
+    
+    margin-top: 10%;
+    height:530px;
+    margin-left: 5%;
+}
+.bill-im1{
+    width: 11%;
+    position: absolute;
+    margin-top: 6.6%;
+    margin-left: -20.35%;
+}
+.bill-c{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bill-c h1{
+    float: right;
+    text-wrap: wrap;
+    margin-top: -30%;
+    position: absolute;
+    margin-left: 65%;
+    font-size: 3.7rem;
+    margin-right: 10%;
+    text-align: left;
+    
+}
+
+.bill-c p{
+    float: right;
+    margin-top: -15%;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+    position: absolute;
+    margin-left: 60%;
+}
+
+#b-h{
+    color: orangered;
+    margin-right: 5%;
+    
+}
+#b-h1{
+    color:darkgreen;
+    word-spacing: 0px;
+}
+
+.mobi{
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 85%;
+    
+}
+.fa-mobile{
+    color: blueviolet;
+}
+#re{
+    float: right;
+   margin-left: 0px;
+    
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+}
+
+/* /download button */
+#c-dow{
+    padding: 12px;
+    width: 225px;
+    border-radius: 7px;
+    font-weight: 800;
+    font-size: 17px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    margin-left: 68%;
+    margin-top: -7%;
+    position: absolute;
+    
+}
+
+#c-dow-ap{
+    text-decoration: none;
+    color: white;
+}
+
+.c-dow-a{
+    color: white;
+    text-decoration: none;
+}
+
+#c-dow:hover{
+    zoom: 108%;
+    box-shadow: 0px 0px 5px 2px black;
+    transition: 0.4s;
+    background-color: rgb(6, 60, 114);
+}
+
+/* /Recharge and bill section */
+.recharge-bill{
+    
+    background-color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.recharge-bill h1{
+    text-align: center;
+    color:white;
+   padding-top: 8%;
+   
+    
+}
+
+.recharge-bill h1{
+    margin-top: 5%;
+}
+.recharge-bill ul{
+    list-style: none;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-right: 100px;
+}
+
+.recharge-bill ul li{
+    
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 85px;
+    
+    color: white;
+    
+   
+}
+.recharge-bill i{
+   color: white;
+  
+   
+}
+.div-ic{
+    background-color: orangered;
+    padding: 35px;
+    clip-path: circle(33%);
+    
+}
+
+.recharge-bill ul li div{
+    position: relative;
+}
+
+ .bill-n{
+    display: block;
+    margin-top: 25px;
+
+    
+}
+.bill-n:nth-child(1){
+    position: absolute;
+    z-index: 2;
+}
+.recharge-bill ul li:nth-child(1){
+   
+
+  text-align: center;
+}
+.recharge-bill .ul-ic2 li:nth-child(2){
+    padding-left: 105px;
+}
+.recharge-bill .ul-ic2 li:nth-child(3){
+    margin-left: -30px;
+}
+
+.recharge-bill .ul-ic2 li:nth-child(2),:nth-child(3){
+   
+    margin-left: -15px;
+  text-align: center;
+}
+.recharge-bill .ul-ic2 {
+    padding-bottom: 100px;
+}
+
+.ul-ic2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.recharge-bill ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* .recharge-bill ul:nth-child(3){
+    margin-left: 20px;
+    padding: 25px;
+} */
+
+.auto-im{
+   position: relative;
+   padding-top: 10%;
+  
+}
+.auto-im img{
+     height: 400px;
+     margin-left: 50px;
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px 5px grey;
+}
+.auto-c{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -290px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 187, 120);
+    width:40%;
+    padding:50px;
+    border-radius: 20px;
+    
+}
+
+.auto-c h1{
+    font-size: 2.8rem;
+}
+
+.auto-c p{
+    margin-top: 10%;
+}
+
+.cashback-im img{
+    
+     height: 550px;
+     margin-top: 250px;
+     margin-left:7.8% ;
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px 5px grey;
+}
+
+.cashback-c{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -328px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 187, 120);
+    width:40%;
+    padding:60px;
+    border-radius: 20px;
+    
+}
+.cashback-c h1{
+    font-size: 2.6rem;
+    text-align: left;
+}
+
+.cashback-c p{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.user-ac{
+    position: absolute;
+    align-items: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    clip-path: circle(40%);
+    margin-left: 92%;
+    margin-top: -4.5%;
+}
+

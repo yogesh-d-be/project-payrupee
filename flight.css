@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.flight{
+    background-color: rgb(166, 106, 173);
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 16%;
+    text-align: left;
+    padding: 0px 45px 0;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flight:hover {
+    zoom: 102%;
+    margin-top: 7%;
+    margin-left: 13%;
+    box-shadow: 0px 0px 7px 3px black;
+    transition:0.5s;
+}
+.flight h3{
+    padding: 30px 0 30px;
+}
+.flight select option:nth-child(3){
+    text-align: left;
+}
+.flight ::placeholder{
+    color: black;
+}
+.fr-to,#fl-tr,#fl-se{
+    margin-top: 30px;
+
+}
+.fr-to,.fl-b,#fl-se{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+#fl-lt{
+    margin-left:5px;
+}
+.fr-to{
+    margin-bottom: 30px;
+    height: 25px;
+    width: 100px;
+}
+#fl-tr{
+    font-size: 0.8rem;
+    
+}
+.fl-b1{
+    margin-top: 15px;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+}
+
+#adu,#inf,#chi{
+    margin-left: 40px;
+   
+}
+#adu{
+    margin-right: 39px;
+}
+#inf{
+    margin-right: 25px;
+   
+}
+#leg{
+    font-size: 0.9rem;
+}
+#fl-se{
+    height:25px;
+    width: 220px;
+}
+#but-fl{
+    margin:35px 0 30px;
+    margin-left: 22%;
+    padding:7px 20px 7px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+#but-fl:hover{
+    box-shadow: 0px 0px 5px 2px black;
+    zoom: 102%;
+    transition: 0.3s;
+}
+
+#fl-be{
+    margin-top: 55%;
+    position: absolute; 
+    margin-left: 5%;
+    background: rgba(245, 245, 245, 0.562);
+    padding: 2% 25% 2% 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#fl-be h2{
+    padding: 10% 0 0;
+}
+#fl-be ul li{
+    margin-top: 10%;
+    list-style-type:square;
+    font-weight: 500px;
+
+}
+#fl-be ul li:nth-child(3){
+    text-align: left;
+    margin-left: 0px;
+}

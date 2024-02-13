@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /logo image */
+
+#l-log-pag {
+  overflow-x: hidden;
+}
+#l-nav-logo {
+  height: 45px;
+  margin-left: -45%;
+
+  margin-top: 20px;
+  position: absolute;
+}
+
+/* /logo name */
+#l-logo-name {
+  position: absolute;
+  margin-left: -41.5%;
+  margin-top: 2%;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(45deg, rgb(255, 94, 0), white, rgb(3, 87, 3));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.5px navy; /*To get color outline for brand name(payrupee)*/
+}
+
+/* /navigation bar */
+.l-nav-bar {
+  background-color: rgb(55, 171, 248);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 2; /*To prevent the overlapping of clip path images while scrolling of position fixed Navbar */
+}
+
+.l-nav-bar ul {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 20%;
+}
+
+.l-nav-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.l-nav-bar ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.l-nav-bar ul li:hover {
+  background-color: rgb(89, 89, 224);
+  border-radius: 25px;
+}
+
+.l-nav-bar ul li a:hover {
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  zoom: 102%;
+}
+
+.user-ac {
+  position: absolute;
+  align-items: center;
+  background: darkblue;
+  color: white;
+  padding: 10px;
+  clip-path: circle(40%);
+  margin-left: 92%;
+  margin-top: -4.5%;
+}
+/* /login button*/
+/* #log li{
+    list-style: none;
+}
+
+#log-button{ */
+/* padding: 5px  ;
+     padding-left: 25px;
+     margin-right: 8%;
+     margin-top: -15%; */
+/*related to navigation bar*/
+
+/* margin-left:40%;
+    margin-top: -60px;
+    position: absolute;
+     width: 6.5%;
+     font-size: 0.9rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border-radius: 12%;
+     box-shadow: 2px 2px 2px 2px black;
+     padding: 7px;
+     font-weight: 500;
+     
+    
+} */
+
+/* /login button anchor tag */
+/* #log-link{
+    text-decoration: none;
+} */
+
+/* / Submenu */
+.menu {
+  display: none;
+}
+
+.l-nav-bar ul li:hover .menu {
+  display: block;
+  position: absolute;
+  background: rgb(207, 227, 240);
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: -15px;
+}
+
+.l-nav-bar ul li:hover .menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.l-nav-bar ul li:hover .menu ul li {
+  width: 150px;
+  padding: 10px;
+  text-align: left;
+  background: transparent;
+  border-radius: 0;
+  border-bottom: 1px dotted black;
+}
+
+.l-nav-bar ul li:hover .menu ul li:last-child {
+  border-bottom: none;
+}
+
+.l-nav-bar ul li:hover .menu ul li a:hover {
+  color: green;
+}
+
+/* /submenu 2 */
+.menu1 {
+  display: none;
+}
+
+.hover:hover .menu1 {
+  display: block;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: -40px;
+  background: rgb(207, 227, 240);
+}
+
+

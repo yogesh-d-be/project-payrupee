@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#company-l-log-pag {
+  background: rgb(238, 167, 141);
+}
+
+.cmpy_im {
+  margin-top: 10%;
+  height: 350px;
+  width: 100%;
+  box-shadow: 0px 0px 10px 2px black;
+}
+
+#rev,
+#how,
+#adv {
+  margin-top: 10%;
+  text-align: center;
+  font-weight: bolder;
+}
+#rev h1,
+#how h1,
+#adv h1 {
+  font-size: 2.5rem;
+  color: orangered;
+}
+#rev p {
+  margin: 4% 15% 0 15%;
+}
+.rev-im {
+  height: 600px;
+  margin-top: 4%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 8px 2px grey;
+}
+#how img,
+#rev img {
+  margin-top: 4%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 8px 2px grey;
+}
+#adv img {
+  margin-top: 4%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 8px 2px grey;
+  height: 400px;
+}

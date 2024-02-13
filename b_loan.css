@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.b-loan{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b-loa-im{
+    margin-top: 5%;
+    width: 70%;
+}
+#b-loa-c{
+    margin-left: 72%;
+    margin-top: -28%;
+    margin-right: 3%;
+}
+#b-loa-c p{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+#b-min2{
+    color: orangered;
+     display: block;
+}
+#b-lo-log{
+    position: absolute;
+    margin-top: -38%;
+    margin-left: 90%;
+    width: 15px;
+    color:darkblue;
+}
+
+
+#b-loa-ad{
+    background-color: bisque;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    padding-left: -7%;
+    padding-top: 7%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 2px coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b-loa-ad ul {
+    display: flex;
+}
+#b-loa-ad ul li{
+    list-style: none;
+    margin-left: 20%;
+    margin-bottom: 4%;
+    margin-top: -5%;
+}
+
+#b-ad-lo{
+    position: absolute;
+    background-color: white;
+    color: darkblue;
+    margin-left: -5%;
+    margin-top: 3%;      
+   font-size: 1.5rem;
+   padding: 2.5%;
+   clip-path: circle(40%);
+   
+}
+#b-ad-lo2{
+    position: absolute;
+    background-color: white;
+    color: darkgreen;
+    margin-left: -5%;
+    margin-top: 3%;
+   font-size: 1.2rem;
+   padding: 2.5%;
+   clip-path: circle(40%);
+   
+}
+#b-ad-lo3{
+    position: absolute;
+    background-color: white;
+    color: rgb(22, 131, 173);
+    margin-left: -5%;
+    margin-top: 3%;
+   font-size: 1.5rem;
+   padding: 2.5%;
+   clip-path: circle(40%);
+   
+}
+#b-ad-lo4{
+    position: absolute;
+    background-color: white;
+    color: gold;
+    margin-left: -5%;
+    margin-top: 3%;
+   font-size: 1.5rem;
+   padding: 2.5%;
+   clip-path: circle(40%);
+   
+}
+
+/* #b-loa-ad{
+ background-color: rgb(60, 184, 71);
+position: absolute;
+margin-top: 32%;
+margin-left: -55%;
+width: 70%;
+padding:1% 0% 6% 0% ;
+border-radius: 30px;
+}
+#b-loa-ad ul li{
+    margin-left: 1%;
+}
+
+#l1,#l2,#l3,#l4{
+    display: flex;
+    
+    
+}
+#b-ad-lo{
+    position: absolute;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: white;
+    clip-path: circle(38%);
+    padding: 4%;
+      
+} */
+ #lis{
+    
+    position: absolute;
+     margin-top: 12%;
+      margin-left: -5%;
+     font-weight: bold;
+
+} 
+ #lis2{
+    
+    position: absolute;
+     margin-top: 12%;
+     margin-left: -7%;
+     font-weight: bold;
+
+} 
+ #lis3{
+    
+    position: absolute;
+     margin-top: 12%;
+      margin-left: -5.5%;
+     font-weight: bold;
+
+} 
+ #lis4{
+    
+    position: absolute;
+     margin-top: 12%;
+     margin-left: -6%;
+     font-weight: bold;
+
+} 
+#ad-q{
+    margin-top: 15%;
+    font-size: 1.2rem;
+    margin-left: -32%;
+}
+#ad-c ul li{
+    text-align: left;
+    margin-left: 75%;
+    font-size: 1rem;
+    margin-top: 2%;
+    font-weight: bold;
+}
+#ad-c{
+    margin-top: -12%;
+}
+
+
+#loan-foot{
+    margin-top: 50%;
+}
+
+
+#loa-d{
+ background-color: rgb(192, 181, 27);
+position: absolute;
+margin-top: 60%;
+margin-left: -55%;
+width: 70%;
+padding:1% 0% 6% 0% ;
+border-radius: 30px;
+}
+
+
+
+#d-lo{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -12%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(9, 9, 90);
+    clip-path: circle(38%);
+    padding: 4%;
+}
+#d-q{
+    margin-top: 15%;
+    font-size: 1.2rem;
+    margin-left: -32%;
+}
+#d-c ul li{
+    text-align: left;
+    margin-left: 75%;
+    font-size: 1rem;
+    margin-top: 2%;
+   
+    font-weight: bold;
+}
+#d-c{
+    margin-top: -12%;
+}
+
+
+
+#b-loa-st{
+    position: absolute;
+    margin-top: 35%;
+    width: 100%;
+   margin-left: -10%;
+    background: linear-gradient(50deg,darkblue,rgb(106, 186, 218),rgb(187, 220, 231));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#b-loa-st h1{
+    margin-top: 5%;
+    
+}
+#b-st-im{
+    display: flex;
+    margin-top: 12%;
+    margin-left: -15%;
+
+}
+.b-st-im{
+    margin: -10% ;
+    
+    list-style: none;
+    
+}
+.b-st-im img:nth-child(1){
+    
+}
+.b-st-im img{
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 7px 2px whitesmoke;
+}
+
+#loan-foot{
+    margin-top: 90%;
+}

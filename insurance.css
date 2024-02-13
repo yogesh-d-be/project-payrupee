@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ins-wrap{
+    position: relative;
+}
+.ins-im{
+    
+    margin-top: 6%;
+    height:610px;
+    width: 100%;
+}
+
+.ins-c{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(245, 245, 245, 0.575);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    
+}
+.ins-c:hover{
+    opacity: 1;
+    
+}
+.ins-c > *{
+    transform: translate(40px);
+    transition: transform 0.6s;
+    
+}
+.ins-c:hover > *{
+    transform: translate(0px);
+   
+    
+}
+.ins-c h1{
+  
+    
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 50%;
+    font-size: 3.7rem;
+   
+    
+}
+
+.ins-c p{
+    
+    margin-top: 23%;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+#ins-h{
+    color: darkblue;
+    margin-right: 25%;
+    
+}
+#ins-h1{
+    color:rgb(0, 113, 158);
+    word-spacing: 0px;
+}
+
+.ins-lo{
+    margin-left: 11.5%;
+    margin-top: -9.5% ;
+    position: absolute;
+
+   
+}
+
+
+/* .fa-mobile{
+    color: blueviolet;
+    
+} */
+/* #i-on{
+
+   margin-left: 0px;
+   font-weight: bold; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 0px;
+} */
+
+/* /bike insurance */
+.ins-pack{
+    display: flex;
+    margin-top: 12%;
+    padding: 0% 3% 6% 3%;
+    background-color: rgb(206, 71, 71);
+}
+.v-ins{
+    position: relative;
+    background-color: lightcoral;
+    height: 450px;
+    width:25%;
+    margin-left: 2%;
+    font-size: 1rem;
+    padding: 4%;
+    margin-top: 5%;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.v-ins:hover{
+    zoom:100.5%;
+    box-shadow: 0px 0px 10px 2px rgb(235, 195, 195);
+}
+.v-lo{
+    text-align: left;
+    padding-top: 12%;
+    display: flex;
+    color: rgb(7, 7, 114);
+    margin-left: 11%;
+    
+}
+.v-c{
+    align-self: flex-end;
+    margin-top: 5.5%;
+    margin-left: -26%;
+    
+}
+#v-p,#v-p1{
+    text-align: center;
+
+}
+#v-p{
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+#v-p1{
+    margin-top: 8%;
+    
+}
+.v-b{
+    margin-top: 19%;
+    padding: 3% 10% 3%;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: seagreen;
+    
+}
+.v-b:hover{
+    zoom: 102%;
+    box-shadow: 0px 0px 4px 2px black;
+}
+
+#ins-be{
+    margin-top: 7%;
+    margin-left: 5%;
+    background-color: rgb(197, 189, 189);
+    padding: 4% 10% 4% 7%;
+    width: 60%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 2px black;
+
+}
+#ins-be ul li{
+    margin-top: 3%;
+
+}
+#ins-be ul li:nth-child(3){
+    text-align: left;
+    margin-left: 0;
+}
+
+
